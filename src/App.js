@@ -65,7 +65,6 @@ const mapStateToProps = ({ user }) => ({
     currentUser: user.currentUser
 });
 
-// eslint-disable-next-line
 const mapDispatchToProps = dispatch => ({
     setCurrentUser: user => dispatch(setCurrentUser(user))
 });
